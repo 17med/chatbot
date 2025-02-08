@@ -52,13 +52,13 @@ const ChatComponent = () => {
             d="M12 6v6m0 0v6m0-6h6m-6 0H6"
           ></path>
         </svg>
-        Chat with Admin Bot
+        Chat with Chat Bot
       </button>
 
       {isChatboxOpen && (
         <div className="fixed bottom-16 right-4 w-400 bg-white shadow-md rounded-lg max-w-md ">
           <div className="p-4 border-b bg-blue-500 text-white rounded-t-lg flex justify-between items-center">
-            <p className="text-lg font-semibold">Admin Bot</p>
+            <p className="text-lg font-semibold">Chat Bot</p>
             <button
               onClick={toggleChatbox}
               className="text-gray-300 hover:text-gray-400 focus:outline-none focus:text-gray-400"
